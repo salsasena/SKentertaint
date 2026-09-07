@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SK ENTERTAINMENT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#home"><span>SK</span> ENTERTAINMENT</a>
+  <nav>
+    <a href="#about">About</a><a href="#schedule">Schedule</a><a href="#trainees">Trainees</a><a href="#audition">Audition</a>
+  </nav>
+  <a class="ig" href="https://instagram.com/sallsna" target="_blank" rel="noopener">Instagram ↗</a>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">SK ENTERTAINMENT · SEOUL</p>
+    <h1>Welcome.<br><em>Chase your dream</em><br>with us.</h1>
+    <p class="lead">A small place for big dreams. We discover, train, and support young talents who are ready to make their own stage.</p>
+    <div class="hero-actions"><a class="button" href="#audition">Join the audition</a><a class="text-link" href="#trainees">Meet our trainees →</a></div>
+  </div>
+  <div class="hero-card">
+    <div class="orbit"></div><div class="spark s1">✦</div><div class="spark s2">✦</div>
+    <div class="card-label">YOUR NEXT CHAPTER</div>
+    <div class="card-title">START<br>HERE.</div>
+    <div class="card-bottom"><span>SK / 2026</span><span>01</span></div>
+  </div>
+</section>
+
+<section class="intro" id="about">
+  <div><p class="eyebrow">01 — WHO WE ARE</p><h2>Not just a company.<br><span>A place to grow.</span></h2></div>
+  <p>SK Entertainment believes that every artist has a story worth telling. Our training focuses on performance, creativity, confidence, and becoming an artist who feels true to themselves.</p>
+</section>
+
+<section class="schedule" id="schedule">
+  <div class="section-head"><div><p class="eyebrow">02 — COMPANY SCHEDULE</p><h2>What's happening<br><span>at SK.</span></h2></div><div class="status"><i></i> Schedule updated weekly</div></div>
+  <div class="timeline">
+    <article><time>09 SEP</time><div><b>Monthly Evaluation</b><p>Vocal & performance review · 14:00</p></div><span>Training</span></article>
+    <article><time>12 SEP</time><div><b>Dance Workshop</b><p>Guest choreographer · Studio B · 16:00</p></div><span>Workshop</span></article>
+    <article><time>18 SEP</time><div><b>Open Audition</b><p>New talent registration · 10:00–17:00</p></div><span>Audition</span></article>
+    <article><time>25 SEP</time><div><b>Monthly Showcase</b><p>Trainee stage night · 19:00</p></div><span>Showcase</span></article>
+  </div>
+</section>
+
+<section class="trainees" id="trainees">
+  <div class="section-head"><div><p class="eyebrow">03 — OUR TRAINEES</p><h2>Meet the next<br><span>generation.</span></h2></div><p class="small-note">Fictional trainee profiles for this website concept.</p></div>
+  <div class="grid">
+    <article class="person"><div class="avatar a1">김</div><div><h3>Kim Seoyeon</h3><p>Vocal · 18</p></div><span>01</span></article>
+    <article class="person"><div class="avatar a2">이</div><div><h3>Lee Jihoon</h3><p>Dance · 19</p></div><span>02</span></article>
+    <article class="person"><div class="avatar a3">박</div><div><h3>Park Minseo</h3><p>Vocal · 17</p></div><span>03</span></article>
+    <article class="person"><div class="avatar a4">최</div><div><h3>Choi Yuna</h3><p>Performance · 18</p></div><span>04</span></article>
+    <article class="person"><div class="avatar a5">정</div><div><h3>Jung Hyunwoo</h3><p>Rap · 20</p></div><span>05</span></article>
+    <article class="person"><div class="avatar a6">한</div><div><h3>Han Chaerin</h3><p>Vocal · 16</p></div><span>06</span></article>
+  </div>
+</section>
+
+<section class="audition" id="audition">
+  <div class="form-intro"><p class="eyebrow">04 — OPEN AUDITION</p><h2>Maybe your<br><em>story</em> starts here.</h2><p>Don't worry about being perfect. Tell us who you are, what you love, and what kind of artist you want to become.</p><div class="ig-line">Follow our little updates <a href="https://instagram.com/sallsna" target="_blank" rel="noopener">@sallsna ↗</a></div></div>
+  <form id="auditionForm">
+    <label>Full name<input required name="name" placeholder="Your name"></label>
+    <div class="two"><label>Age<input required type="number" min="10" max="35" name="age" placeholder="18"></label><label>Country<input required name="country" placeholder="Indonesia"></label></div>
+    <label>Category<select name="category"><option>Vocal</option><option>Dance</option><option>Rap</option><option>Performance</option><option>Producer / Creative</option></select></label>
+    <label>Instagram / social media<input name="social" placeholder="@yourusername"></label>
+    <label>Why do you want to join SK?<textarea required name="reason" rows="4" placeholder="A few words are enough..."></textarea></label>
+    <button class="button" type="submit">Send application →</button>
+    <p class="form-note">Demo form — your application is shown as a confirmation on this page.</p>
+  </form>
+</section>
+</main>
+
+<footer><div class="logo"><span>SK</span> ENTERTAINMENT</div><p>Dreams look better when you have people to chase them with.</p><a href="https://instagram.com/sallsna" target="_blank" rel="noopener">@sallsna ↗</a></footer>
+<div id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
