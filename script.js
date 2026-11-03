@@ -1,1 +1,0 @@
-const form=document.getElementById("auditionForm");const toast=document.getElementById("toast");form.addEventListener("submit",e=>{e.preventDefault();const name=form.elements.name.value.trim()||"there";toast.textContent=`Thanks, ${name}! Your audition form has been received ✦`;toast.classList.add("show");form.reset();setTimeout(()=>toast.classList.remove("show"),4500)});
